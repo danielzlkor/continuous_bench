@@ -43,7 +43,7 @@ The scripts we show here is what we have used to analyse ex-vivo macaque brain d
 
 ---
 
-### Data files**
+### Data files
 
 This library relies on several key data files during training and inference. These include acquisition parameters, dMRI data, and microscopy data.
 Below is a summary of the important files:
@@ -56,7 +56,7 @@ Below is a summary of the important files:
    These files contain acquisition parameters such as gradient strengths, directions, and b-values used to acquire or simulate the dMRI data.
 
 2. **Input Data**:
-   - dMRI Data: `dwi_for_exvivo_data.npz` **This file is available upon request**
+   - dMRI Data: `dwi_for_exvivo_data.npz` **This file is available upon request.**
    - Microscopy Data: `microscopy_for_exvivo_data.npz`
 
    These files are what we analyse to link dMRI data to microscopy data.
