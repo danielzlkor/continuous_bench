@@ -61,6 +61,8 @@ Below is a summary of the important files:
 
    These files are what we analyse to link dMRI data to microscopy data.
 
+---
+
 ### **1. Training**
 
 #### **Description**
@@ -79,7 +81,7 @@ Each script defines the necessary paths and parameters for training and invokes 
 
 #### **Example Commands**
 
-1. **Training change models for ex-vivo data**:
+a. **Training change models for ex-vivo data**:
    ```bash
    ./script_for_training_change_model_for_exvivo_data.sh
    ```
@@ -88,7 +90,7 @@ Each script defines the necessary paths and parameters for training and invokes 
    - Number of samples: 20,000
    - Output directory: `change_model/`
 
-2. **Training change models for simulation data**:
+b. **Training change models for simulation data**:
    ```bash
    ./script_for_training_change_model_for_simulation_data.sh
    ```
@@ -113,6 +115,7 @@ The python scripts trained change models that characterise the distribution of c
 A GLM is used to model the change in the dMRI signal with respect to continuous variable-of-interest.
 This has been incorporated with the next inference step into a jupyter notebook (see below)
 
+---
 
 ## **3. Inference**
 
